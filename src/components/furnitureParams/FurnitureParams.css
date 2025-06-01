@@ -1,0 +1,140 @@
+.furniture_details_sect  {
+    padding-top: 130px;
+    width: 100%;
+    height: auto;
+}
+
+.furniture_details_container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0;
+}
+
+.furniture_details_div {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 380px;
+    height: 600px;
+}
+
+.product_image_div {
+    display: flex;
+    align-items: start;
+}
+
+.product_image_div {
+    width: 550px;
+    height: 600px;
+}
+
+.product_image_div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.product_name_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product_name_div h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.product_name_div p {
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.rating_div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.rating_div span {
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.furniture_description p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #222;
+}
+
+.color_buttons {
+    display: flex;
+    gap: 10px;
+    padding: 12px 0;
+}
+
+.color_buttons button {
+    padding: 17px 40px;
+    border: 1px solid #222;
+    cursor: pointer;
+}
+
+.checkoutBtn_inc_dec_div {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.inc_dec_div {
+    border: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80px;
+    height: 60px;
+    transition: all 0.3s ease-in-out;
+}
+
+.inc_dec_div:hover {
+    border: 1px solid #000;
+}
+
+.inc_dec_div button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.inc_dec_div span {
+    color: #707070;
+    font-size: 14px;
+}
+.GoPlus {
+    font-size: 15px;
+}
+
+.checkout_div {
+    width: 100%;
+    height: 60px;    
+}
+
+.checkout_div button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkout_div button:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
