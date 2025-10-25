@@ -8,7 +8,7 @@ RetroZone – A beautifully designed furniture shop concept featuring modern UI,
 ## Technologies Used
 - Frontend: React (CSS)
 - Design Focus: Modern and clean UI inspired by e-commerce layouts
-- Routing: React Router (if used)
+- Routing: React Router
 
 ## Features
 - **Product Showcase:** Displays a wide range of furniture items such as sofas, chairs, and tables.  
